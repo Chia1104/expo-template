@@ -25,8 +25,6 @@ module.exports = {
       extends: [
         "plugin:react/recommended",
         "plugin:react/jsx-runtime",
-        "plugin:react-hooks/recommended",
-        "plugin:@next/next/recommended",
         "plugin:tailwindcss/recommended",
       ],
       plugins: ["react"],
@@ -34,7 +32,6 @@ module.exports = {
         "tailwindcss/classnames-order": "off",
         "react/prop-types": "off",
         "react/no-unknown-property": "off",
-        "react-hooks/exhaustive-deps": "warn",
         "react/self-closing-comp": "error",
         "no-restricted-syntax": [
           "error",
@@ -60,7 +57,6 @@ module.exports = {
         "react/jsx-boolean-value": "error",
         "react/react-in-jsx-scope": "off",
         "react/no-unescaped-entities": "off",
-        "@next/next/no-html-link-for-pages": "off",
       },
       settings: {
         react: { version: "detect" },
